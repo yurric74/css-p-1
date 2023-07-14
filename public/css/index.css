@@ -1,3 +1,122 @@
+/*==Задание 1 ========*/
 .task_1 h1 {
   color: green;
 }
+
+.task_1 p {
+  -webkit-text-fill-color: red;
+}
+.task_1 button {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+/*==Задание 2 ========*/
+
+.task_2 h1:hover {
+  direction: rtl;
+}
+.task_2 p {
+  text-align: right;
+}
+.task_2 button {
+  text-transform: uppercase;
+}
+
+/*==Задание 3 ========*/
+.task_3 h1 {
+  writing-mode: vertical-rl;
+}
+.task_3 pre {
+  tab-size: 4;
+}
+.task_3 button {
+  letter-spacing: 2px;
+  text-decoration:  underline solid black;
+}
+
+/*==Задание 4 ========*/
+.task_4 h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+.task_4 p {
+  font-family: 'Open Sans', sans-serif;
+  font-display: swap;
+  font-weight: bold;
+}
+
+
+/*==Задание 5 ========*/
+
+.task_5 div {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.task_5 button {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+.task_5 input {
+  min-width: 150px;
+  min-height: 45px;
+  max-width: 300px;
+  max-height: 60px;
+  background-color: gray;
+}
+.task_5 p {
+  display: none;
+}
+
+/*==Задание 6 ========*/
+.task_6 h1 {
+  outline: 3px double blue;
+  outline-offset: 10px;
+}
+.task_6 div {
+  border: 3px dashed red;
+}
+.task_6 button {
+  border-radius: 25px;
+  text-shadow: 2px 2px 10px #888888;
+}
+
+/*==Задание 7 ========*/
+.task_7 button {
+  box-shadow: 2px 2px 5px 10px #666666;
+  line-height: 2;
+}
+.task_7 strong {
+  vertical-align: top;
+  cursor: wait;
+}
+/*==Задание 8 ========*/
+.task_8 div {
+  display: none;
+}
+.task_8 p {
+  max-height: 70px;
+  overflow: scroll;
+}
+.task_8 h1 {
+  max-height: 50px;
+  overflow: clip;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*==Задание 9 ========*/
+.task_9 h1 {
+  white-space: nowrap;
+  word-spacing: 30px;
+}
+.task_9 div {
+  hyphens: manual;
+}
+.task_9 p {
+  word-break: break-word;
+}
+.task_9 textarea {
+  resize: both;
+} 
